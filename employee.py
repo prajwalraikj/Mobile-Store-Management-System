@@ -11,7 +11,7 @@ employee_id = os.environ.get("USER_ID")
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="@Ronaldo04",
+    password="password",
     database="dbms_project"
 )
 def set_discount(product_id, discount_value):
