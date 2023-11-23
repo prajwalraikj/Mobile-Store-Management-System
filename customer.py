@@ -12,7 +12,7 @@ user_id = os.environ.get("USER_ID")  # Change this to USER_ID
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="@Ronaldo04",
+    password="password",
     database="dbms_project"
 )
 cursor = db.cursor()
