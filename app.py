@@ -7,7 +7,7 @@ import os
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="@Ronaldo04",
+    password="password",
     database="dbms_project"
 )
 cursor = db.cursor()
