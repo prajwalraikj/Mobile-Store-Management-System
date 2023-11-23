@@ -19,7 +19,7 @@ def id_exists(user_id, user_type):
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="@Ronaldo04",
+        password="password",
         database="dbms_project"
     )
     cursor = db.cursor()
@@ -88,7 +88,7 @@ def execute_query(query, user_type):
     db = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="@Ronaldo04",
+        password="password",
         database="dbms_project"
     )
     cursor = db.cursor()
@@ -132,7 +132,7 @@ def login():
         db = mysql.connector.connect(
             host="localhost",
             user="root",
-            password="@Ronaldo04",
+            password="password",
             database="dbms_project"
         )
         cursor = db.cursor()
